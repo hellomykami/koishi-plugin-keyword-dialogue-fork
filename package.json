@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-dialogue-fork",
-  "description": "in-keyword-dialogue的fork版本,添加部分功能",
-  "version": "0.0.1",
+  "description": "[keyword-dialogue](https://www.npmjs.com/package/@shangxueink/koishi-plugin-keyword-dialogue)的[fork](https://github.com/hellomykami/koishi-plugin-keyword-dialogue-fork)版本,添加部分功能",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -10,13 +10,26 @@
   ],
   "license": "MIT",
   "scripts": {},
+  "homepage": "https://github.com/hellomykami/koishi-plugin-keyword-dialogue-fork",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellomykami/koishi-plugin-keyword-dialogue-fork.git"
+  },
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "keyword",
+    "关键词"
   ],
   "devDependencies": {},
   "peerDependencies": {
-    "koishi": "^4.18.0"
+    "koishi": "^4.15.0"
+  },
+  "koishi": {
+    "description": {
+      "en": "a dialogue plugin fork",
+      "zh": "[keyword-dialogue](https://www.npmjs.com/package/@shangxueink/koishi-plugin-keyword-dialogue)的[fork](https://github.com/hellomykami/koishi-plugin-keyword-dialogue-fork)版本,添加部分功能"
+    }
   }
 }
