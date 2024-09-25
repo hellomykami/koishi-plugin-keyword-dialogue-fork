@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-dialogue-fork",
   "description": "[keyword-dialogue](https://www.npmjs.com/package/@shangxueink/koishi-plugin-keyword-dialogue)的[fork](https://github.com/hellomykami/koishi-plugin-keyword-dialogue-fork)版本,添加部分功能",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
