@@ -692,7 +692,7 @@ function apply(ctx, config) {
           const replies = data[keyword];
           let isMatch = false;
           if (keyword.startsWith('regex:')) {
-            const regexPattern = '^' + config.KeywordPrefix + keyword.substring(6);
+            const regexPattern = '^' + config.KeywordPrefix + '(' + keyword.substring(6) + ')$';
             logInfo(regexPattern)
             const regex = new RegExp(regexPattern);
             isMatch = regex.test(anothercontent);
